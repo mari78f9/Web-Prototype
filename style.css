@@ -7,7 +7,72 @@ body {
     background-color: #f58e81;
 }
 
-h1 {
-    font-size: 5rem;
+.titel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titel h3 {
+    background-color: #cdcdcd;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: -10px;
+    font-size: 1.5rem;
+    width: 2000px;
     text-align: center;
+}
+
+.forside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 500px;
+}
+
+.forside h1 {
+    font-size: 16rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 150px 0 0 0;
+    font-weight: bold;
+    width: 700px;
+    height: 245px;
+    color: #000000;
+}
+
+.forside h2 {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    width: 0;
+    color: #000000;
+}
+
+.logInd {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logInd p {
+    background-color: #000000;
+    color: #fffdfd;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 560px) {
+    .forside h1 {
+        width: 580px;
+    }
 }
