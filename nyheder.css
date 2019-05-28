@@ -63,3 +63,66 @@ h2 {
     font-size: 1.5rem;
     margin: 20px 50px 10px 50px;
 }
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #4C374B;
+    margin: 20px 130px 20px 0;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #4C374B;
+    margin: 20px 0 20px 0;
+    font-size: 1rem;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: -44.5px 0 0 10px;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: -44.5px 0 0 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    margin: 10px 20px 10px 50px;
+}
+
+.info {
+    display: flex;
+}
+
+.like {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: #F58E81;
+    height: 50px;
+    margin: 0 15px 10px 15px;
+}
+
+.hjerte {
+    height: 35px;
+    width: 35px;
+    margin: -51.5px 0 10px 40px;
+}
+
+.besked {
+    height: 35px;
+    width: 35px;
+    margin: -51.5px 0 10px 250px;
+}
