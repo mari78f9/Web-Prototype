@@ -51,14 +51,14 @@ body {
     color: #000000;
 }
 
-.logInd {
+#logIndKnap {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.logInd p {
+#logIndKnap p {
     background-color: #000000;
     color: #fffdfd;
     padding: 20px;
@@ -69,6 +69,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.hide {
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 560px) {

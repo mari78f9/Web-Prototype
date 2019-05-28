@@ -1,0 +1,17 @@
+.titel {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cdcdcd;
+    margin: -10px;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.titel h3 {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px 130px 0 0;
+    padding: 17px;
+}
