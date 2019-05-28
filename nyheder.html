@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Prototype</title>
     <link rel="stylesheet" href="nyheder.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="titel">
-        <h3>KEA</h3>
-        <img src="ui/menu.png" alt="menu">
+    <div class="topnav">
+        <a href="index.html" class="active">KEA</a>
+        <div id="myLinks">
+            <a href="logInd.html">Log ind</a>
+            <a href="nyheder.html">Nyheder</a>
+            <a href="#about">Skema</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="news">
+        <h1>Har nogen set min lader?</h1>
+        <h2>Hej klasse, jeg har glemt min lader i klassen. Den er sort og er en ASUS oplader. Kan I skrive hvis nogen finder den? Tak!</h2>
     </div>
     <script src="script.js"></script>
 </body>

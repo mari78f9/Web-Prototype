@@ -7,21 +7,45 @@ body {
     background-color: #f58e81;
 }
 
-.titel {
-    display: flex;
-    flex-wrap: wrap;
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
 }
 
-.titel h3 {
+.topnav {
+    overflow: hidden;
     background-color: #cdcdcd;
-    color: #000000;
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    padding: 10px;
     margin: -10px;
-    font-size: 1.5rem;
-    width: 2000px;
-    text-align: center;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.icon {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #69596A;
+    color: white;
+}
+
+.active {
+    background-color: #EA5045;
 }
 
 .forside {
