@@ -48,35 +48,7 @@ html {
     background-color: #EA5045;
 }
 
-.skema {
-    display: flex;
-    color: #4C374B;
-    margin: 10px;
-}
-
-li {
+.opgaver {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
-
-.dag {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: #000000;
-    background-color: #F58E81;
-    border-radius: 10px;
-    padding: 0 0 0 70px;
-    font-size: 1.5rem;
-    margin: 30px 10px 10px 10px;
-}
-
-.left {
-    height: 50px;
-    margin: 30px 50px 0 0;
-}
-
-.right {
-    height: 50px;
-    margin: 30px 0 0 50px;
 }

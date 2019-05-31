@@ -1,0 +1,137 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FAF7F7;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #cdcdcd;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: -10px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.icon {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #69596A;
+    color: white;
+}
+
+.active {
+    background-color: #EA5045;
+}
+
+.box {
+    background-color: #EA5045;
+    width: 100vw;
+    height: 50vw;
+    margin: -10px;
+}
+
+.kea {
+    width: 200px;
+    height: 60px;
+    margin: 70px 0 0 140px;
+}
+
+.symboler {
+    width: 450px;
+    height: 20px;
+    margin: 15px 0 0 20px;
+}
+
+.uname {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ea5045;
+    background-color: #fffdfd;
+    padding: 15px 20px 15px 100px;
+    margin: 100px 30px 10px 70px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.psw {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ea5045;
+    background-color: #fffdfd;
+    padding: 15px 20px 15px 100px;
+    margin: 10px 30px 10px 70px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.gray {
+    background-color: #DEDCDB;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 30px;
+    margin: 100px 0 0 210px;
+}
+
+.continue {
+    background-color: #EA5045;
+    width: 50vw;
+    height: 10vw;
+    border-radius: 30px;
+    margin: 30px 0 0 55px;
+    padding: 0 20px 0 100px;
+}
+
+.conpic {
+    width: 20vw;
+    height: 3.2vw;
+    margin: 17px 0 0 40px;
+}
+
+.facebook {
+    background-color: #fffdfd;
+    width: 50vw;
+    height: 10vw;
+    border-radius: 30px;
+    margin: 20px 0 0 55px;
+    padding: 0 20px 0 100px;
+    border: solid #EA5045;
+}
+
+.logface {
+    width: 30vw;
+    height: 3.5vw;
+    margin: 0 0 4px 10px;
+}
+
+.facesymbol {
+    width: 5vw;
+    height: 5vw;
+    margin: 12px 50px 0 -80px;
+}

@@ -1,0 +1,116 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FAF7F7;
+}
+
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #cdcdcd;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: -10px;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.icon {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #69596A;
+    color: white;
+}
+
+.active {
+    background-color: #EA5045;
+}
+
+.keabox {
+    background-color: #EA5045;
+    width: 502px;
+    height: 60px;
+    margin: 10px 0 -10px -10px;
+}
+
+.kea {
+    width: 80px;
+    height: 25px;
+    margin: 17px 0 0 20px;
+}
+
+.profil {
+    width: 30px;
+    height: 25px;
+    margin: 17px 20px 0 300px;
+}
+
+.menu {
+    width: 30px;
+    height: 25px;
+}
+
+.box {
+    background-color: white;
+    width: 502px;
+    height: 40px;
+    margin: 10px 0 0 -10px;
+}
+
+.symboler {
+    width: 450px;
+    height: 20px;
+    margin: 10px 0 0 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    grid-gap: 10px;
+    padding: 10px 20px 30px 40px;
+}
+
+.item {
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #EA847C;
+}
+
+.item-4 {
+    grid-column: 1 / span 2;
+    font-size: 1.5rem;
+}
+
+.item-10 {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+    font-size: 3rem;
+}
