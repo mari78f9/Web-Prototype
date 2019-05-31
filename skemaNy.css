@@ -3,6 +3,10 @@ html {
     margin: 0;
 }
 
+.body {
+    background-color: #fffdfd;
+}
+
 .mobile-container {
     max-width: 480px;
     margin: auto;
@@ -43,8 +47,6 @@ html {
 .active {
     background-color: #EA5045;
 }
-
-/** BURGER MENU**/
 
 body {
     margin: 0;
@@ -238,7 +240,7 @@ a:hover {
     background-color: white;
     width: 502px;
     height: 40px;
-    margin: 10px 0 0 -10px;
+    margin: 10 0 0 -10px;
 }
 
 .symboler {
@@ -247,31 +249,88 @@ a:hover {
     margin: 10px 0 0 20px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 125px 125px 125px;
-    grid-template-rows: 125px 125px 125px 125px 125px 125px;
-    grid-gap: 10px;
-    padding: 10px 20px 30px 40px;
+.maj {
+    width: 510px;
+    height: 80px;
+    margin: -10px 0 0 -10px;
+    background-color: #3F3140;
 }
 
-.item {
-    background-color: white;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
+.maj h5,
+h6 {
     font-weight: lighter;
-    color: #EA847C;
+    color: white;
+    margin: -15px 0 14px 0;
+    text-align: center;
 }
 
-.item-4 {
-    grid-column: 1 / span 2;
-    font-size: 1.5rem;
+.maj h5 {
+    font-size: 1.3rem;
 }
 
-.item-10 {
-    grid-column: 2 / span 2;
-    grid-row: 4 / span 2;
-    font-size: 3rem;
+.maj h6 {
+    font-size: 0.8rem;
+}
+
+.pilv {
+    height: 10px;
+    width: 10px;
+    height: 20px;
+    width: 20px;
+    margin: 30px 0 -30px 60px;
+}
+
+.pilh {
+    height: 20px;
+    width: 20px;
+    margin: 30px 0 -30px 330px;
+}
+
+/**Tabel**/
+
+table {
+    width: 103%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #E2E8ED;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: white;
+}
+
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#t01 th {
+    background-color: #3F3140;
+    color: white;
+    text-align: center;
+}
+
+.kort {
+    width: 10vw;
+    height: 50%;
+}
+
+.grey {
+    background-color: #F2F1F0;
+    vertical-align: bottom;
+}
+
+.skema {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
 }

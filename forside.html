@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,81 @@
     <link rel="stylesheet" href="forside.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex">
+
 </head>
 
 <body>
+    <div class="disclaimer">
+        <h1>Dette er en studieproduktion, ikke KEAs officielle side</h1>
+    </div>
     <div class="topnav">
         <a href="logIndNy.html" class="active">KEA</a>
         <div id="myLinks">
             <a href="logInd.html">Log ind</a>
+            <a href="forside.html">Forside</a>
             <a href="nyheder.html">Nyheder</a>
             <a href="skema.html">Skema</a>
             <a href="opgaver.html">Opgaver</a>
-            <a href="skema.html">Materialer</a>
-            <a href="skema.html">Profil</a>
-            <a href="skema.html">Beskeder</a>
-            <a href="skema.html">Mine filer</a>
+            <a href="skemaNy.html">Skema Ny</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
+    <header>
+        <nav role='navigation'>
+            <div id="menuToggle">
+                <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+                <input type="checkbox" />
+
+                <!--
+    Some spans to act as a hamburger.
+
+    -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+                <ul id="menu">
+                    <img src="ui/Group%201582.png" alt="kea" class="kealogo">
+                    <a href="forside.html">
+                        <li>Aktuelt</li>
+                    </a>
+                    <a href="forside.html">
+                        <li>Skema</li>
+                    </a>
+                    <a href="afleveringer.html">
+                        <li>Afleveringer</li>
+                    </a>
+                    <a href="forside.html">
+                        <li>Materialer</li>
+                    </a>
+                    <a href="forside.html">
+                        <li>Chat</li>
+                    </a>
+                    <a href="forside.html">
+                        <li>Indstillinger</li>
+                    </a>
+                    <div id="goback">
+                        <a href="logIndNy.html">
+                            <li>Log ud</li>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="keabox">
         <img src="ui/Group%201585.png" alt="kea" class="kea">
         <img src="ui/Profile.png" alt="profil" class="profil">
-        <img src="ui/Menu.png" alt="menu" class="menu">
     </div>
     <div class="box"> <img src="ui/status-bar-dark.png" alt="symbol" class="symboler">
     </div>
@@ -52,4 +105,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
